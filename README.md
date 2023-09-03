@@ -23,9 +23,9 @@ conda activate ocr
 $ git clone https://github.com/smaciu/OCR.git
 $ cd ocr
 $ pip install -r requirements.txt
-$ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf" 4 5
+$ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf" 4 5 # only 5th page
 
-$ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf"
+$ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf" # all pages
 
 ```
 
