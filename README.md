@@ -12,7 +12,10 @@ pdf_to_text.py accepts 3 arguments:
 - start page: int [ptional]
 - end page: int [optional]
 
-If start and end page argumenrs **are not selected**, entire document is extracted and file_name.txt is saved under same path_to_scanned_pdf.
+If "start  page" and "end page" argumenrs **are not selected**, the entire document is processed.
+
+Extracted text is saved under **file_name**.txt under the path: "**path_to_scanned_pdf**".
+Text for individual pages is saved under the directiory "file_name"
 
 From your command line:
 
