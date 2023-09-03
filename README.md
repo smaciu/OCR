@@ -21,14 +21,14 @@ Text of individual pages is saved under the directiory "file_name"
 From your command line:
 
 ```
-conda create --name ocr
-conda activate ocr
+conda create --name ocr #create virtual environment
+conda activate ocr #activate the environment
 
 $ git clone https://github.com/smaciu/OCR.git
 $ cd ocr
-$ pip install -r requirements.txt
+$ pip install -r requirements.txt # install OCR packages
 $ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf" 4 5 # only 5th page
-
+or
 $ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf" # all pages
 
 ```
