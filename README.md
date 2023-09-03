@@ -6,7 +6,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [P
 
 ```
 $ git clone https://github.com/smaciu/OCR.git
-$ cd adam
+$ cd ocr
 $ pip install -r requirements.txt
 $ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf" 4 5
 
