@@ -5,7 +5,7 @@
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Python](https://www.python.org/downloads/) installed on your computer. From your command line:
 
 pdf_to_text.py accepts 3 arguments: 
-- path to file
+- path to file: str
 - start_page: int [ptional]
 - end_page: int [optional]
 
