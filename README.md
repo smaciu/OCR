@@ -36,14 +36,16 @@ In the case of pytesseract, the library is a Python binding for Google's Tessera
 
 ## Installing and Running
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Python](https://www.python.org/downloads/) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Python](https://www.python.org/downloads/) installed on your computer. 
 
 pdf_to_text.py accepts 3 arguments: 
 - path to file: str
 - start_page: int [ptional]
 - end_page: int [optional]
 
-If start and end page are not selected then entire document is extracted.
+If start and end page argumenrs **are not selected**, entire document is extracted.
+
+From your command line:
 
 ```
 conda create --name ocr
