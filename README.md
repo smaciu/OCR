@@ -25,6 +25,8 @@ $ cd ocr
 $ pip install -r requirements.txt
 $ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf" 4 5
 
+$ python pdf_to_text.py "path_to_scanned_pdf/file_name.pdf"
+
 ```
 
 ## Contact
