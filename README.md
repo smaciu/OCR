@@ -1,4 +1,4 @@
-# OCR to extract text from scanned documents
+# OCR: extract text from scanned documents
 
 Optical Character Recognition (OCR) is a technology used to convert different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data. 
 
