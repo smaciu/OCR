@@ -9,10 +9,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [P
 
 pdf_to_text.py accepts 3 arguments: 
 - path to file: str
-- start_page: int [ptional]
-- end_page: int [optional]
+- start page: int [ptional]
+- end page: int [optional]
 
-If start and end page argumenrs **are not selected**, entire document is extracted.
+If start and end page argumenrs **are not selected**, entire document is extracted and file_name.txt is saved under same path_to_scanned_pdf.
 
 From your command line:
 
