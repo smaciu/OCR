@@ -1,5 +1,4 @@
 Pillow
 pytesseract
 pdf2image
-os
 tqdm
